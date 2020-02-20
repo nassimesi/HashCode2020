@@ -10,6 +10,7 @@ class Library:
 		self.shipment_book_per_day = shipment_book_per_day
 		self.books = []
 		self.books_shiped = []
+		self.forbiden_books = 0;
 
 	def dump(self):
 		print("--- --- ---")
